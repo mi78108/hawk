@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="db0c5ae4-8e1a-4c39-acc2-bd8293925631" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img.dir/test2.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Test/hs_err_pid2838877.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Test/hs_err_pid2839066.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Test/hs_err_pid2844500.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Test/hs_err_pid2845558.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Test/hs_err_pid2846718.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Test/hs_err_pid2847247.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Test/hs_err_pid2847976.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Test/hs_err_pid2848444.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Test/hs_err_pid2849175.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Test/hs_err_pid2849741.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Test/src/com/hmsm/cv/opencv/com/hmsm/com/hmsm/opencv/cv/imgCpp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Test/src/com/hmsm/cv/opencv/com/hmsm/cv/opencv/imgCpp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Test/src/com/hmsm/cv/opencv/com_hmsm_cv_opencv_imgCpp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sys/Http.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/html/markdown.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/html/paste.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/html/room.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/js/baseFunc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/js/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/js/ws.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/js/xterm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RustProjects/hawk/src/web/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RustProjects/opecv_lib/hs_err_pid221318.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RustProjects/opecv_lib/hs_err_pid221886.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RustProjects/opecv_lib/hs_err_pid223891.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RustProjects/opecv_lib/hs_err_pid2838455.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RustProjects/opecv_lib/hs_err_pid2924058.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RustProjects/opecv_lib/hs_err_pid2926456.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RustProjects/opecv_lib/hs_err_pid51585.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RustProjects/opecv_lib/hs_err_pid99684.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/base_func.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/base_func.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/3.15.5/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/3.15.5/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/3.15.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/3.15.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/3.15.5/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/3.15.5/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/3.15.5/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/3.15.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/3.15.5/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/3.16.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/3.16.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/3.16.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/3.16.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/3.16.2/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/3.16.2/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/CMakeError.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/CheckIncludeFiles/STDC_HEADERS.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/CheckTypeSize/LCONV_SIZE.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/CheckTypeSize/LCONV_SIZE.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img.dir/test.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img.dir/websocket.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img_lib.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img_lib.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img_lib.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img_lib.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img_lib.dir/base_func.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img_lib.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img_lib.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img_lib.dir/cmake_clean_target.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img_lib.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img_lib.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img_lib.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img_lib.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img_lib.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img_lib.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img_lib.dir/jni_lib.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img_lib.dir/jni_lib.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img_lib.dir/kgt_peizhi.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img_lib.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img_lib.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img_lib.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/opencv_img_lib.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CPackConfig.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/CPackSourceConfig.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/Continuous.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/Continuous.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/Continuous.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/Continuous.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ContinuousBuild.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ContinuousBuild.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ContinuousBuild.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ContinuousBuild.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ContinuousConfigure.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ContinuousConfigure.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ContinuousConfigure.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ContinuousConfigure.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ContinuousCoverage.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ContinuousCoverage.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ContinuousCoverage.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ContinuousCoverage.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ContinuousMemCheck.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ContinuousMemCheck.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ContinuousMemCheck.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ContinuousMemCheck.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ContinuousStart.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ContinuousStart.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ContinuousStart.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ContinuousStart.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ContinuousSubmit.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ContinuousSubmit.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ContinuousSubmit.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ContinuousSubmit.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ContinuousTest.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ContinuousTest.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ContinuousTest.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ContinuousTest.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ContinuousUpdate.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ContinuousUpdate.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ContinuousUpdate.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ContinuousUpdate.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/Experimental.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/Experimental.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/Experimental.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/Experimental.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ExperimentalBuild.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ExperimentalBuild.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ExperimentalBuild.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ExperimentalBuild.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ExperimentalConfigure.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ExperimentalConfigure.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ExperimentalConfigure.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ExperimentalConfigure.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ExperimentalCoverage.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ExperimentalCoverage.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ExperimentalCoverage.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ExperimentalCoverage.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ExperimentalMemCheck.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ExperimentalMemCheck.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ExperimentalMemCheck.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ExperimentalMemCheck.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ExperimentalStart.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ExperimentalStart.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ExperimentalStart.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ExperimentalStart.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ExperimentalSubmit.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ExperimentalSubmit.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ExperimentalSubmit.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ExperimentalSubmit.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ExperimentalTest.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ExperimentalTest.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ExperimentalTest.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ExperimentalTest.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ExperimentalUpdate.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ExperimentalUpdate.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ExperimentalUpdate.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/ExperimentalUpdate.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/Export/lib64/cmake/jsoncpp/jsoncppConfig-noconfig.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/Export/lib64/cmake/jsoncpp/jsoncppConfig.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/Nightly.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/Nightly.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/Nightly.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/Nightly.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/NightlyBuild.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/NightlyBuild.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/NightlyBuild.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/NightlyBuild.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/NightlyConfigure.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/NightlyConfigure.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/NightlyConfigure.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/NightlyConfigure.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/NightlyCoverage.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/NightlyCoverage.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/NightlyCoverage.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/NightlyCoverage.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/NightlyMemCheck.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/NightlyMemCheck.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/NightlyMemCheck.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/NightlyMemCheck.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/NightlyMemoryCheck.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/NightlyMemoryCheck.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/NightlyMemoryCheck.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/NightlyMemoryCheck.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/NightlyStart.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/NightlyStart.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/NightlyStart.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/NightlyStart.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/NightlySubmit.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/NightlySubmit.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/NightlySubmit.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/NightlySubmit.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/NightlyTest.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/NightlyTest.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/NightlyTest.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/NightlyTest.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/NightlyUpdate.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/NightlyUpdate.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/NightlyUpdate.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/NightlyUpdate.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/CTestTestfile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/DartConfiguration.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/include/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/include/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/include/CTestTestfile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/include/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/include/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/jsoncppConfigVersion.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/pkg-config/jsoncpp.pc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/CTestTestfile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/jsontestrunner/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_check.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_check.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_check.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_check.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_readerwriter_tests.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_readerwriter_tests.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_readerwriter_tests.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_readerwriter_tests.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/jsontestrunner/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/jsontestrunner/CTestTestfile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/jsontestrunner/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/jsontestrunner/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/jsontestrunner/jsontestrunner_exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/lib_json/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib.dir/cmake_clean_target.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib.dir/json_reader.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib.dir/json_value.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib.dir/json_writer.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/lib_json/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/lib_json/CTestTestfile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/lib_json/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/lib_json/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/lib_json/libjsoncpp.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/test_lib_json/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/test_lib_json/CMakeFiles/jsoncpp_test.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/test_lib_json/CMakeFiles/jsoncpp_test.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/test_lib_json/CMakeFiles/jsoncpp_test.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/test_lib_json/CMakeFiles/jsoncpp_test.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/test_lib_json/CMakeFiles/jsoncpp_test.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/test_lib_json/CMakeFiles/jsoncpp_test.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/test_lib_json/CMakeFiles/jsoncpp_test.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/test_lib_json/CMakeFiles/jsoncpp_test.dir/fuzz.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/test_lib_json/CMakeFiles/jsoncpp_test.dir/jsontest.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/test_lib_json/CMakeFiles/jsoncpp_test.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/test_lib_json/CMakeFiles/jsoncpp_test.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/test_lib_json/CMakeFiles/jsoncpp_test.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/test_lib_json/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/test_lib_json/CTestTestfile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/test_lib_json/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/test_lib_json/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/src/test_lib_json/jsoncpp_test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/jsoncpp/version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libopencv_img_lib.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libopencv_img_lib.so" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libopencv_img_lib.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/Export/lib/cmake/libwebsockets/LibwebsocketsTargets-noconfig.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/Export/lib/cmake/libwebsockets/LibwebsocketsTargets.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/LibwebsocketsConfig.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/dist.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/dist.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/dist.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/dist.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/test-client.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/test-client.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/test-client.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/test-client.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/test-client.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/test-client.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/test-client.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/test-lejp.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/test-lejp.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/test-lejp.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/test-lejp.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/test-lejp.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/test-lejp.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/test-lejp.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/test-server-extpoll.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/test-server-extpoll.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/test-server-extpoll.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/test-server-extpoll.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/test-server-extpoll.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/test-server-extpoll.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/test-server-extpoll.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/test-server.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/test-server.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/test-server.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/test-server.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/test-server.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/test-server.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/test-server.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/C.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/cmake_clean_target.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/core-net/adopt.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/core-net/client.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/core-net/close.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/core-net/connect.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/core-net/dummy-callback.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/core-net/network.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/core-net/output.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/core-net/pollfd.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/core-net/sequencer.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/core-net/server.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/core-net/service.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/core-net/sorted-usec-list.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/core-net/state.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/core-net/stats.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/core-net/vhost.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/core-net/wsi-timeout.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/core-net/wsi.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/core/alloc.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/core/buflist.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/core/context.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/core/libwebsockets.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/core/logs.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/core/lws_dll2.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/core/vfs.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/event-libs/poll/poll.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/misc/base64-decode.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/misc/dir.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/misc/lejp.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/misc/lws-ring.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/misc/lwsac/cached-file.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/misc/lwsac/lwsac.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/misc/sha-1.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/plat/unix/unix-caps.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/plat/unix/unix-fds.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/plat/unix/unix-file.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/plat/unix/unix-init.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/plat/unix/unix-misc.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/plat/unix/unix-pipe.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/plat/unix/unix-service.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/plat/unix/unix-sockets.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/roles/h1/ops-h1.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/roles/h2/hpack.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/roles/h2/http2.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/roles/h2/ops-h2.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/roles/http/client/client-handshake.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/roles/http/client/client-http.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/roles/http/header.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/roles/http/parsers.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/roles/http/server/lejp-conf.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/roles/http/server/lws-spa.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/roles/http/server/server.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/roles/listen/ops-listen.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/roles/pipe/ops-pipe.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/roles/raw-file/ops-raw-file.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/roles/raw-skt/ops-raw-skt.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/roles/ws/client-parser-ws.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/roles/ws/client-ws.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/roles/ws/ops-ws.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/roles/ws/server-ws.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/system/system.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/tls/openssl/openssl-client.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/tls/openssl/openssl-server.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/tls/openssl/openssl-ssl.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/tls/openssl/openssl-tls.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/tls/openssl/openssl-x509.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/tls/tls-client.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/tls/tls-network.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/tls/tls-server.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/lib/tls/tls.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets_shared.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets_shared.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets_shared.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets_shared.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets_shared.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets_shared.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/CMakeFiles/websockets_shared.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/LibwebsocketsConfig.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/LibwebsocketsConfigVersion.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/LibwebsocketsTargets.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/abstract/abstract.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/abstract/protocols.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/abstract/protocols/smtp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/abstract/transports.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/abstract/transports/raw-skt.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/abstract/transports/unit-test.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-adopt.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-async-dns.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-callbacks.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-cgi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-client.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-context-vhost.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-dbus.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-detailed-latency.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-diskcache.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-dll2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-dsh.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-esp32.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-freertos.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-fts.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-genaes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-gencrypto.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-genec.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-genhash.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-genrsa.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-http.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-jose.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-jwe.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-jwk.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-jws.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-lejp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-logs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-lwsac.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-misc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-network-helper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-optee.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-plugin-generic-sessions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-protocols-plugins.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-purify.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-retry.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-ring.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-sequencer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-service.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-sha1-base64.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-spa.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-state.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-stats.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-struct.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-system.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-test-sequencer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-threadpool.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-timeout-timer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-tokenize.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-vfs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-write.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-writeable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-ws-close.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-ws-ext.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-ws-state.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/libwebsockets/lws-x509.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/include/lws_config.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/lib/libwebsockets.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/libwebsockets-test-server.key.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/libwebsockets-test-server.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/libwebsockets.pc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/libwebsockets_static.pc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/lws_config.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/libwebsockets/lws_config_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/opencv_img" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/build/opencv_img" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/CMakeFiles/opencv_img.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/CMakeFiles/opencv_img.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/CMakeFiles/opencv_img.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/CMakeFiles/opencv_img.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/CMakeFiles/opencv_img.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/CMakeFiles/opencv_img.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/CMakeFiles/opencv_img.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/CMakeFiles/opencv_img.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/CMakeFiles/opencv_img.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/CMakeFiles/opencv_img.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/CMakeFiles/opencv_img.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/CMakeFiles/opencv_img.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/CMakeFiles/opencv_img.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/CMakeFiles/opencv_img.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/CMakeFiles/opencv_img.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/CMakeFiles/opencv_img.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/CMakeFiles/opencv_img.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/CMakeFiles/opencv_img.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/CMakeFiles/opencv_img.dir/test.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/CMakeFiles/opencv_img_lib.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/CMakeFiles/opencv_img_lib.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/CMakeFiles/opencv_img_lib.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/CMakeFiles/opencv_img_lib.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/CMakeFiles/opencv_img_lib.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/CMakeFiles/opencv_img_lib.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/CMakeFiles/opencv_img_lib.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/CMakeFiles/opencv_img_lib.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/CMakeFiles/opencv_img_lib.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/CMakeFiles/opencv_img_lib.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_readerwriter_tests.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_readerwriter_tests.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/jsoncpp/src/jsontestrunner/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/jsoncpp/src/jsontestrunner/CTestTestfile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/opencv_img" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/opencv_img" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/opencv_img.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/cmake-build-debug/opencv_img.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/jni_lib.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/jni_lib.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/jsoncpp/src/lib_json/json_writer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/jsoncpp/src/lib_json/json_writer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/kgt_peizhi.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLionProjects/opencv_img/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLionProjects/opencv_img/test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IdeaProjects/Test/out/production/Test/com/hmsm/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../IdeaProjects/Test/out/production/Test/com/hmsm/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IdeaProjects/Test/out/production/Test/com/hmsm/com_hmsm_imgCpp.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../IdeaProjects/Test/out/production/Test/com/hmsm/com_hmsm_imgCpp.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IdeaProjects/Test/out/production/Test/com/hmsm/imgCpp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../IdeaProjects/Test/out/production/Test/com/hmsm/imgCpp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IdeaProjects/Test/src/com/hmsm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../IdeaProjects/Test/src/com/hmsm/cv/opencv/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IdeaProjects/Test/src/com/hmsm/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../IdeaProjects/Test/src/com/hmsm/cv/opencv/build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IdeaProjects/Test/src/com/hmsm/com/hmsm/imgCpp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IdeaProjects/Test/src/com/hmsm/com_hmsm_imgCpp.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../IdeaProjects/Test/src/com/hmsm/cv/opencv/com_hmsm_imgCpp.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IdeaProjects/Test/src/com/hmsm/imgCpp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../IdeaProjects/Test/src/com/hmsm/cv/opencv/imgCpp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ruby-version" beforeDir="false" afterPath="$PROJECT_DIR$/.ruby-version" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rakefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/config/manifest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/channels/application_cable/channel.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/channels/application_cable/connection.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/concerns/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/channels/consumer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/channels/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/packs/application.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/jobs/application_job.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/mailers/application_mailer.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/application_record.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/concerns/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/mailer.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/mailer.text.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/bundle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/rails" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/rake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/setup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/spring" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/yarn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.ru" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boot.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/cable.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/credentials.yml.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environment.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/application_controller_renderer.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/assets.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/backtrace_silencers.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/content_security_policy.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/cookies_serializer.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/filter_parameter_logging.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/inflections.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/mime_types.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/wrap_parameters.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/locales/en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/puma.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/spring.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/storage.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/assets/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tasks/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/422.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/apple-touch-icon-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RustProjects/hawk/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../RustProjects/hawk/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RustProjects/hawk/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../../RustProjects/hawk/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RustProjects/hawk/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../../RustProjects/hawk/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RustProjects/opecv_lib/src/main/java/com/hawk/opecv_lib/CvApi/Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../RustProjects/opecv_lib/src/main/java/com/hawk/opecv_lib/CvApi/Index.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RustProjects/opecv_lib/src/main/java/com/hmsm/imgCpp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../RustProjects/opecv_lib/src/main/java/com/hmsm/imgCpp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WebstormProjects/opencv/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../WebstormProjects/opencv/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WebstormProjects/opencv/js/baseFun.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../WebstormProjects/opencv/js/baseFun.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WebstormProjects/opencv/js/dawFunc.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../WebstormProjects/opencv/js/dawFunc.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Ruby File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1YTdjma9ErkEKtG0YC0CaYtqqL9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Http" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="hawk" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/sys" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/sys/Http.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Ruby.Http" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db0c5ae4-8e1a-4c39-acc2-bd8293925631" name="Default Changelist" comment="" />
+      <created>1582970655151</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582970655151</updated>
+      <workItem from="1582970656295" duration="6974000" />
+      <workItem from="1583048948701" duration="60934000" />
+      <workItem from="1583233157564" duration="69401000" />
+      <workItem from="1583503039248" duration="34980000" />
+      <workItem from="1583747013576" duration="9663000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/hawk@Http.rcov" NAME="Http Coverage Results" MODIFIED="1583839901779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sys" MODULE_NAME="hawk" />
+  </component>
+</project>
