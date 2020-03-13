@@ -40,4 +40,21 @@ Hp.map('/paste/ws').on('GET|WS') do |req, resp|
   end
 end
 ```
+## 快速开始
+```
+Hp = Http.new(2000)
 
+Hp.map('/').on('GET') do |req, resp|
+  resp.render 'html/index'
+end
+
+Hp.server_start
+```
+OR
+```
+Hp = Http.new(2000).map('/') { |req, resp|  resp.render 'html/index' }.server_start
+```
+OR (map '/' on get and post defaults; and map /say on post only)
+```
+Hp = Http.new(2000).map('/') { |req, resp|  resp.render 'html/index' }.map('/say').on('POST') { |req, resp| resp.set_body(req.get_heads.to_json) }.server_start
+```
