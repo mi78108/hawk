@@ -1,5 +1,11 @@
 # ruby_web
-Ruby 实现的简单 web，支持http/1.1 websocket ,支持自定义协议扩展.
+Ruby 实现的简单 web，支持http/1.1 websocket ,支持自定义协议扩展. 使用Socket 库开发，依赖极少
+```
+require 'socket'
+require 'logger'
+require 'json'
+require 'pathname'
+```
 * 自定义 get mapping
 ```
 Hp.map('/').on('GET') do |req, resp|
@@ -56,5 +62,8 @@ Hp = Http.new(2000).map('/') { |req, resp|  resp.render 'html/index' }.server_st
 ```
 OR (map '/' on get and post defaults; and map /say on post only)
 ```
-Hp = Http.new(2000).map('/') { |req, resp|  resp.render 'html/index' }.map('/say').on('POST') { |req, resp| resp.set_body(req.get_heads.to_json) }.server_start
+Hp = Http.new(2000)
+  .map('/') { |req, resp|  resp.render 'html/index' }
+  .map('/say').on('POST') { |req, resp| resp.set_body(req.get_heads.to_json) }
+  .server_start
 ```
