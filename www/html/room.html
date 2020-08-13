@@ -1,169 +1,168 @@
 <!DOCTYPE html>
 <html lang="en" style="height: 100%">
-	<head>
-		<meta charset="UTF-8">
-		<title>Room</title>
-		<script src="/pub/js/baseFunc.js"></script>
-		<script src="/pub/js/xterm.js"></script>
-		<script src="/pub/js/ws.js"></script>
-	</head>
-	<body style="width: 98%;height: 85%">
-		<!--Input Room ID <input id="room_id">-->
-		<div style="margin: 5% auto;padding: 2%;background-color: bisque;width: 90%;height: 80%">
-			<div id="o_m" style="overflow-y: auto;width: 96%;margin:auto;height: 70%;background-color: #000">
-			</div>
-			<div id="i_m" contenteditable="true"
+<head>
+	<meta charset="UTF-8">
+	<title>Room</title>
+	<script src="/pub/js/baseFunc.js"></script>
+	<script src="/pub/js/xterm.js"></script>
+	<script src="/pub/js/ws.js"></script>
+</head>
+<body style="width: 98%;height: 85%">
+<!--Input Room ID <input id="room_id">-->
+<div style="margin: 5% auto;padding: 2%;background-color: bisque;width: 90%;height: 80%">
+	<div id="o_m" style="overflow-y: auto;width: 96%;margin:auto;height: 70%;background-color: #000">
+	</div>
+	<div id="i_m" contenteditable="true"
 		 style="width: 96%;margin-top: 2%;margin-left: auto;margin-right:auto;height: 24%;background-color: aliceblue">
-				<textarea style="width: 100%;height: 100%"></textarea>
-			</div>
-			<div style="margin: 5% auto;width:96%;text-align:center">
-				<button>A</button>
-				<button>B</button>
-			</div>
-		</div>
-	</body>
-	<script>
-
-		document.addEventListener("drop",function(e){  //拖离
-			e.preventDefault();
-		});
-document.addEventListener("dragleave",function(e){  //拖后放
-	e.preventDefault();
-});
-document.addEventListener("dragenter",function(e){  //拖进
-	e.preventDefault();
-});
-document.addEventListener("dragover",function(e){  //拖来拖去
-	e.preventDefault();
-});
-	</script>
-
-
-	<script>
-		let box = document.getElementById('o_m'); //拖拽区域
-box.addEventListener("drop",function(e){
-	var fileList = e.dataTransfer.files; //获取文件对象
-	//检测是否是拖拽文件到页面的操作
-	if(fileList.length == 0){
-		return false;
-	}
-	//拖拉图片到浏览器，可以实现预览功能
-	//规定视频格式
-	Array.prototype.S=String.fromCharCode(2);
-	Array.prototype.in_array=function(e){
-		var r=new RegExp(this.S+e+this.S);
-		return (r.test(this.S+this.join(this.S)+this.S));
-	};
-	var video_type=["video/mp4","video/ogg"];
-
-	//创建一个url连接,供src属性引用
-	var fileurl = window.URL.createObjectURL(fileList[0]);
-
-var reader = new FileReader();
-
-reader.readAsDataURL(fileList[0]);
-
-reader.onload = function (ev) {
-    base64 = ev.target.result;
-	if(fileList[0].type.indexOf('image') === 0){  //如果是图片
-		var str="<img width='200px' height='200px' src='"+base64+"'>";
-		document.getElementById('uip').innerHTML=str;
-	}else if(video_type.in_array(fileList[0].type)){   //如果是规定格式内的视频
-		var str="<video width='200px' height='200px' controls='controls' src='"+base64+"'></video>";
-		document.getElementById('uip').innerHTML=str;
-	}else{ //其他格式，输出文件名
-		//alert("不预览");
-		var str="文件名字:"+fileList[0].name;
-		document.getElementById('uip').innerHTML=str;
-	}
-	resultfile = fileList[0];
-}
-},false);
-	</script>
+		<textarea style="width: 100%;height: 100%"></textarea>
+	</div>
+	<div style="margin: 5% auto;width:96%;text-align:center">
+		<button>A</button>
+		<button>B</button>
+	</div>
+</div>
+</body>
+<script>
+	document.addEventListener("drop",function(e){  //拖离
+		e.preventDefault();
+	});
+	document.addEventListener("dragleave",function(e){  //拖后放
+		e.preventDefault();
+	});
+	document.addEventListener("dragenter",function(e){  //拖进
+		e.preventDefault();
+	});
+	document.addEventListener("dragover",function(e){  //拖来拖去
+		e.preventDefault();
+	});
+</script>
 
 
-	<script>
-		let received_msg;
-jQuery(function ($, undefined) {
-	if ("WebSocket" in window) {
-		let wse = new wsExt("ws://"+window.location.host+window.location.pathname);
-		wse.ws.onopen = function () {
-			$("#o_m").get(0).style.border = "3px green solid";
-			$("#o_m").get(0).style.boxShadow = "-0px -0px 5px 5px green";
-			wse.re_try = 7;
-			setInterval(function () {
-				//
-				let r = _get_added('ctrl_ping_count');
-				wse.ws.send('CTRL_PING_' + r);
-				log("Ping");
-				if (r > 78) {
-					_get_added('ctrl_ping_count', function (v) {
-						v.v = 0;
-					});
-				}
-			}, 30000)
+<script>
+	let box = document.getElementById('o_m'); //拖拽区域
+	box.addEventListener("drop",function(e){
+		var fileList = e.dataTransfer.files; //获取文件对象
+		//检测是否是拖拽文件到页面的操作
+		if(fileList.length == 0){
+			return false;
+		}
+		//拖拉图片到浏览器，可以实现预览功能
+		//规定视频格式
+		Array.prototype.S=String.fromCharCode(2);
+		Array.prototype.in_array=function(e){
+			var r=new RegExp(this.S+e+this.S);
+			return (r.test(this.S+this.join(this.S)+this.S));
 		};
-		let tm = $('#o_m').Xterm({
-			prompt: " > "
-		}, function (command) {
-			if (command === 'video') {
-				document.body.appendChild(get_local_video("wc"));
-			}
-			log(command)
-			wse.ws.send(command)
-		});
+		var video_type=["video/mp4","video/ogg"];
 
-		wse.ws.onmessage = function (evt) {
-			received_data = evt.data;
-			log(received_data);
-			if (received_data.startsWith("CTRL_")) {
-				log(received_data);
-			} else {
-				if(received_data.startsWith('{') && received_data.endsWith('}')){
-					let js = JSON.parse(received_data);
-					let info = "客户端: "+js.ev_client_addr+" ["+js.ev_type+"] 当前在线: "+js.clients;
-					$("#i_m").children("textarea").append(info+"                "+tm.last_cb()+"\n");
-				}else {
-					received_msg = evt.data;
-					tm.echo(received_msg);
-				}
-			}
-		};
+		//创建一个url连接,供src属性引用
+		var fileurl = window.URL.createObjectURL(fileList[0]);
 
-		wse.ws.onclose = function (evt) {
-			//alert("We Lost WS connect Ready To Reconnect...");
-			$("#o_m").get(0).style.boxShadow = "-0px -0px 5px 5px red";
-			$("#o_m").get(0).style.border = "3px red solid";
-			if (wse.re_try > 0) {
-				setTimeout(function () {
-					wse.reconnect();
-				}, 3000);
+		var reader = new FileReader();
+
+		reader.readAsDataURL(fileList[0]);
+
+		reader.onload = function (ev) {
+			base64 = ev.target.result;
+			if(fileList[0].type.indexOf('image') === 0){  //如果是图片
+				var str="<img width='200px' height='200px' src='"+base64+"'>";
+				document.getElementById('uip').innerHTML=str;
+			}else if(video_type.in_array(fileList[0].type)){   //如果是规定格式内的视频
+				var str="<video width='200px' height='200px' controls='controls' src='"+base64+"'></video>";
+				document.getElementById('uip').innerHTML=str;
+			}else{ //其他格式，输出文件名
+				//alert("不预览");
+				var str="文件名字:"+fileList[0].name;
+				document.getElementById('uip').innerHTML=str;
 			}
-			wse.re_try--;
-		};
-		//
-		//
-		$("#o_m").dblclick(function(event){
-			event.defaultPrevented;
-			event.stopPropagation();
-			layer.open({
-				type: 1,
-				area: ['430px', '250px'],
-				content: '<textarea id="t_msg" style="overflow-x: hidden;width: 420px;height: 240px">'+received_msg+'</textarea>',
-				success:function () {
-					$("#t_msg").keydown(function(event){
-						if(event.keyCode === 13) {
-							let _msg = $("#t_msg").val();
-							tm.echo(_msg);
-							wse.ws.send(_msg);
-						}
-					});
+			resultfile = fileList[0];
+		}
+	},false);
+</script>
+
+
+<script>
+	let received_msg;
+	jQuery(function ($, undefined) {
+		if ("WebSocket" in window) {
+			let wse = new wsExt("wss://"+window.location.host+window.location.pathname);
+			wse.ws.onopen = function () {
+				$("#o_m").get(0).style.border = "3px green solid";
+				$("#o_m").get(0).style.boxShadow = "-0px -0px 5px 5px green";
+				wse.re_try = 7;
+				setInterval(function () {
+					//
+					let r = _get_added('ctrl_ping_count');
+					wse.ws.send('CTRL_PING_' + r);
+					log("Ping");
+					if (r > 78) {
+						_get_added('ctrl_ping_count', function (v) {
+							v.v = 0;
+						});
+					}
+				}, 30000)
+			};
+			let tm = $('#o_m').Xterm({
+				prompt: " > "
+			}, function (command) {
+				if (command === 'video') {
+					document.body.appendChild(get_local_video("wc"));
 				}
+				log(command)
+				wse.ws.send(command)
 			});
-		});
-	} else {
-		alert("浏览器 不支持 WebSocket")
-	}
-});
-	</script>
+
+			wse.ws.onmessage = function (evt) {
+				received_data = evt.data;
+				log(received_data);
+				if (received_data.startsWith("CTRL_")) {
+					log(received_data);
+				} else {
+					if(received_data.startsWith('{') && received_data.endsWith('}')){
+						let js = JSON.parse(received_data);
+						let info = "客户端: "+js.ev_client_addr+" ["+js.ev_type+"] 当前在线: "+js.clients;
+						$("#i_m").children("textarea").append(info+"                "+tm.last_cb()+"\n");
+					}else {
+						received_msg = evt.data;
+						tm.echo(received_msg);
+					}
+				}
+			};
+
+			wse.ws.onclose = function (evt) {
+				//alert("We Lost WS connect Ready To Reconnect...");
+				$("#o_m").get(0).style.boxShadow = "-0px -0px 5px 5px red";
+				$("#o_m").get(0).style.border = "3px red solid";
+				if (wse.re_try > 0) {
+					setTimeout(function () {
+						wse.reconnect();
+					}, 3000);
+				}
+				wse.re_try--;
+			};
+			//
+			//
+			$("#o_m").dblclick(function(event){
+				event.defaultPrevented;
+				event.stopPropagation();
+				layer.open({
+					type: 1,
+					area: ['430px', '250px'],
+					content: '<textarea id="t_msg" style="overflow-x: hidden;width: 420px;height: 240px">'+received_msg+'</textarea>',
+					success:function () {
+						$("#t_msg").keydown(function(event){
+							if(event.keyCode === 13) {
+								let _msg = $("#t_msg").val();
+								tm.echo(_msg);
+								wse.ws.send(_msg);
+							}
+						});
+					}
+				});
+			});
+		} else {
+			alert("浏览器 不支持 WebSocket")
+		}
+	});
+</script>
 </html>
