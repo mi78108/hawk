@@ -46,7 +46,6 @@
 
             $("#get").click(function () {
                 wse.ws.send("CTRL_TEXT_GET_"+$("#text").val()+"_"+$("#text").val())
-               // wse.close()
             })
 
             wse.ws.onmessage = function (evt) {
@@ -56,6 +55,9 @@
                     if (received_data.startsWith('CTRL_KEY_')){
                         key = received_data.replace('CTRL_KEY_','');
                         log('GET KEY '+ key)
+                    }
+                    if(received_data.startsWith("CTRL_ERROR_")){
+                        $("#out").val(received_data.replace('CTRL_ERROR_',''))
                     }
                 } else {
                     log(received_data)

@@ -70,6 +70,9 @@ Hp.map(%r{/paste(/?.+)*}).on('GET|WS') do |req, resp|
           end
         else
           Log.error "#{key} is Not Defined"
+          req.stream(Http_pro::WS[:send]) do
+            "CTRL_ERROR_Not Found"
+          end
         end
       end
 
