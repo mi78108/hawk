@@ -46,7 +46,7 @@
 
             $("#get").click(function () {
                 wse.ws.send("CTRL_TEXT_GET_"+$("#text").val()+"_"+$("#text").val())
-                wse.close()
+               // wse.close()
             })
 
             wse.ws.onmessage = function (evt) {
