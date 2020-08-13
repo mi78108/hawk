@@ -22,7 +22,7 @@
     jQuery(function ($, undefined) {
         if ("WebSocket" in window) {
             let key;
-           let wse = new wsExt("wss://" + window.location.host + window.location.pathname);
+           let wse = new wsExt(window.location.protocol.indexOf("https")>-1?"wss://":"ws://" + window.location.host + window.location.pathname);
             wse.ws.onopen = function () {
                 wse.re_try = 7;
                 setInterval(function () {
@@ -46,6 +46,10 @@
 
             $("#get").click(function () {
                 wse.ws.send("CTRL_TEXT_GET_"+$("#text").val()+"_"+$("#text").val())
+            })
+
+            $("#out").ondblclick(function () {
+                copyToclip($("#out").val())
             })
 
             wse.ws.onmessage = function (evt) {

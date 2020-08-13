@@ -85,7 +85,8 @@
 	let received_msg;
 	jQuery(function ($, undefined) {
 		if ("WebSocket" in window) {
-			let wse = new wsExt("wss://"+window.location.host+window.location.pathname);
+			let wse = new wsExt(window.location.protocol.indexOf("https")>-1?"wss://":"ws://" + window.location.host + window.location.pathname);
+			//let wse = new wsExt("wss://"+window.location.host+window.location.pathname);
 			wse.ws.onopen = function () {
 				$("#o_m").get(0).style.border = "3px green solid";
 				$("#o_m").get(0).style.boxShadow = "-0px -0px 5px 5px green";
