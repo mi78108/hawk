@@ -54,6 +54,7 @@ Hp.map(%r{/paste(/?.+)*}).on('GET|WS') do |req, resp|
 
       req.stream(Http_pro::WS[:recv]) do |r|
         r = r.split('_')
+        next if r[1] != 'TEXT'
         key = r[3]
         if Pastes.has_key? key
           if r[2] == 'SET'
@@ -74,6 +75,7 @@ Hp.map(%r{/paste(/?.+)*}).on('GET|WS') do |req, resp|
             "CTRL_ERROR_Not Found"
           end
         end
+
       end
 
     end
