@@ -22,8 +22,7 @@
     jQuery(function ($, undefined) {
         if ("WebSocket" in window) {
             let key;
-           // let wse = new wsExt("ws://" + window.location.host + window.location.pathname);
-            let wse = new wsExt("ws://" + window.location.href);
+           let wse = new wsExt("wss://" + window.location.host + window.location.pathname);
             wse.ws.onopen = function () {
                 wse.re_try = 7;
                 // setInterval(function () {
