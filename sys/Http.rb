@@ -206,7 +206,14 @@ class Request
 
   def send(msg)
     # p msg
-    @socket.puts msg
+    begin
+      @socket.puts msg unless @socket.closed?
+    rescue Exception => e
+      Log.error e.message
+      Log.error e.backtrace.inspect
+      @socket.close
+      #ensure
+    end
   end
 end
 
@@ -276,17 +283,42 @@ class Response
   end
 
   ##
-  def render(name, exi = '.html')
+  def render(name,arg = {} , exi = '.html')
     # p name
     set_body_type Http_code::MIME_HTML
-    send_file Pathname.new(WEBROOT).join name + exi
+    cb = Proc.new do |by|
+      by.scan(%r|\#{(.*?)}|).each do |v|
+        v=v.pop
+        by.sub!('#{'+v+'}',arg[v].to_s)
+      end
+      by
+    end
+    send_file Pathname.new(WEBROOT).join(name + exi), cb
   end
 
-  def send_file(path, mime = nil)
+  def send_file_download(path)
+    Log.info "down File Path: #{path}"
+    unless path.nil?
+      File.open(path,"rb") do |fl|
+        @body = "#{@body}#{fl.read}"
+      end
+      set_body @body
+      add_head({
+                   'Content-Type'=> 'application/octet-stream',
+                   'Content-Disposition'=> "attachment; filename=#{path.split('/').pop}"
+               })
+    end
+  end
+
+  def send_file(path,cb = nil, mime = nil)
     Log.info "Send File Path: #{path}"
     unless path.nil?
       File.foreach(path) do |line|
         @body = "#{@body}#{line}"
+      end
+      if not cb.nil?
+        @body = cb.call @body
+        Log.info "Render By CB"
       end
       set_body @body
       Http_code.constants.each do |k|
@@ -297,7 +329,7 @@ class Response
       end
     end
   end
-end
+  end
 
 
 module Http_code
@@ -376,7 +408,7 @@ module Http_pro
     end
   end, send: proc do |c, &block|
     msg = block.call
-    msg = msg.encode('utf-8').bytes
+    msg = msg.to_s.encode('utf-8').bytes
     m_l = msg.size
     # h1
     resp = [0x81]

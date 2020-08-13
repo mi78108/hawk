@@ -1,13 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="height: 100%;width: 100%">
 <head>
     <meta charset="UTF-8">
     <title>WEB 粘贴板</title>
-    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
-    </script>
+    <script src="/pub/js/baseFunc.js"></script>
+    <script src="/pub/js/xterm.js"></script>
+    <script src="/pub/js/ws.js"></script>
 </head>
-<body>
-<textarea id="text">
+<body style="width: 100%;height: 100%">
+<div style="margin: auto;width: 80%;height: 80%;background-color: antiquewhite">
+<textarea style="width: 100%;height: 90%" id="text">
 </textarea>
+    <div  style=" margin: auto;width: 100%;height: 10%">
+        <button id="set" style="display: inline-block;display: #{btn}">PUSH</button>
+        <button id="get" style="display: inline-block;display: #{btn}">PULL</button>
+        <textarea  id="out" readonly style="width: 100%;height: 100%"></textarea>
+    </div>
+</div>
 </body>
+<script>
+    jQuery(function ($, undefined) {
+        if ("WebSocket" in window) {
+            let key;
+            let wse = new wsExt("ws://" + window.location.host + window.location.pathname);
+            wse.ws.onopen = function () {
+                wse.re_try = 7;
+                // setInterval(function () {
+                //     //
+                //     let r = _get_added('ctrl_ping_count');
+                //     wse.ws.send('CTRL_PING_' + r);
+                //     log("Ping");
+                //     if (r > 78) {
+                //         _get_added('ctrl_ping_count', function (v) {
+                //             v.v = 0;
+                //         });
+                //     }
+                // }, 30000)
+            };
+
+            $("#set").click(function () {
+                wse.ws.send("CTRL_TEXT_SET_"+key+"_"+$("#text").val())
+                log(window.location.href+"/"+key)
+                $("#out").val(window.location.href+"/"+key)
+            })
+
+            $("#get").click(function () {
+                wse.ws.send("CTRL_TEXT_GET_"+$("#text").val()+"_"+$("#text").val())
+                wse.close()
+            })
+
+            wse.ws.onmessage = function (evt) {
+                let received_data = evt.data;
+                if (received_data.startsWith("CTRL_")) {
+                    log("CTRL: "+received_data);
+                    if (received_data.startsWith('CTRL_KEY_')){
+                        key = received_data.replace('CTRL_KEY_','');
+                        log('GET KEY '+ key)
+                    }
+                } else {
+                    log(received_data)
+                    $("#text").val(received_data)
+                }
+            };
+
+            wse.ws.onclose = function (evt) {
+                alert("We Lost WS connect Ready To Reconnect...");
+                if (wse.re_try > 0) {
+                    setTimeout(function () {
+                        wse.reconnect();
+                    }, 3000);
+                }
+                wse.re_try--;
+            };
+        }
+    });
+</script>
 </html>

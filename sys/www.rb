@@ -25,19 +25,57 @@ Hp.map('/').on('GET') do |req, resp|
   resp.add_head({'Location' => "http://#{req.heads['Host']}/room/1"})
 end
 
-Hp.map('/paste').on('GET') do |req, resp|
-  resp.render 'html/paste'
-end
+Pastes = {}
+Hp.map(%r{/paste(/?.+)*}).on('GET|WS') do |req, resp|
+    if req.pro == 'GET'
+      if req.params['api_param'][0][0]
+        resp.render('html/paste',{"btn"=>"none"})
+      else
+        resp.render('html/paste')
+      end
+    end
 
-Hp.map('/paste/ws').on('GET|WS') do |req, resp|
-  req.stream(Http_pro::WS[:recv]) do |r|
-    req.stream(Http_pro::WS[:send]) do
-      p r
-      r
+  if req.pro == 'WS'
+    if req.params['api_param'][0][0]
+      key = req.params['api_param'][0][0][1..]
+      p key
+      req.stream(Http_pro::WS[:send]) do
+        Pastes[key]
+      end
+      req.stream(Http_pro::WS[:recv]) do |v|
+        p v
+      end
+    else
+      req.stream(Http_pro::WS[:send]) do
+        key = "#{Pastes.size}-#{"aa".chars.map {|_| ('a'..'z').to_a[rand(26)]}.join}"
+        Pastes[key] = nil
+        "CTRL_KEY_#{key}"
+      end
+
+      req.stream(Http_pro::WS[:recv]) do |r|
+        r = r.split('_')
+        key = r[3]
+        if Pastes.has_key? key
+          if r[2] == 'SET'
+            Pastes[key] = r[4..].join
+            Log.info "#{key} Text Set"
+          end
+
+          if r[2] == 'GET'
+            m = Pastes[key]
+            Log.info "#{key} Text Get"
+            req.stream(Http_pro::WS[:send]) do
+              m
+            end
+          end
+        else
+          Log.error "#{key} is Not Defined"
+        end
+      end
+
     end
   end
 end
-
 
 Hp.map(%r{room/(\d+)}i).on('GET|WS') do |req, resp|
   room_no = req.params['api_param'][0][0]
