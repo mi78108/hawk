@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vditor@latest/dist/index.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/vditor@latest/dist/index.min.js"></script>
+</head>
+<body>
+<div style="width: 50%;margin: auto">
+<div id="vditor">
+</div>
+</div>
+<script>
+    const vditor = new Vditor('vditor', {
+        debugger: true,
+        typewriterMode: true,
+        placeholder: 'placeholder',
+        counter: 100,
+        height: 500,
+        hint: {
+            emojiPath: 'https://cdn.jsdelivr.net/npm/vditor@1.8.3/dist/images/emoji',
+            emojiTail: '<a href="https://hacpai.com/settings/function" target="_blank">设置常用表情</a>',
+            emoji: {
+                'sd': '💔',
+                'j': 'https://unpkg.com/vditor@1.3.1/dist/images/emoji/j.png',
+            },
+        },
+        tab: '\t',
+        upload: {
+            accept: 'image/*,.mp3, .wav, .rar',
+            token: 'test',
+            url: '/api/upload/editor',
+            linkToImgUrl: '/api/upload/fetch',
+            filename (name) {
+                return name.replace(/[^(a-zA-Z0-9\u4e00-\u9fa5\.)]/g, '').
+                replace(/[\?\\/:|<>\*\[\]\(\)\$%\{\}@~]/g, '').
+                replace('/\\s/g', '')
+            },
+        },
+    });
+    vditor.setTheme('dark');
+</script>
+</body>
+</html>

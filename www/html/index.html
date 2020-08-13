@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MI-HAWK</title>
+    <script src="/pub/js/baseFunc.js">
+    </script>
+</head>
+<body style="text-align: center;margin: auto;width: 100%;height: 100%">
+<h1>My New Site</h1>
+<p style="float: right;margin-right: 5%">
+    由Ruby构建的简单WEB服务器，实现了HTTP/1.1 和 websocket
+</p>
+<div id="date">{{date_now}}</div>
+</body>
+<script>
+    let date = new Vue({
+        el:"#date",
+        data:{
+            date_now:'',
+        }
+    });
+
+    setInterval(function () {
+        let now=new Date();
+        date.date_now = now;
+    },1000)
+</script>
+</html>
