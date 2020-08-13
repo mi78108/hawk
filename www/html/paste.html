@@ -12,8 +12,8 @@
 <textarea style="width: 100%;height: 90%" id="text">
 </textarea>
     <div  style=" margin: auto;width: 100%;height: 10%">
-        <button id="set" style="display: inline-block;display: #{btn}">PUSH</button>
-        <button id="get" style="display: inline-block;display: #{btn}">PULL</button>
+        <button id="set" style="display: inline-block;display: #{btn}">存</button>
+        <button id="get" style="display: inline-block;display: #{btn}">取</button>
         <textarea  id="out" readonly style="width: 100%;height: 100%"></textarea>
     </div>
 </div>
@@ -25,17 +25,17 @@
            let wse = new wsExt("wss://" + window.location.host + window.location.pathname);
             wse.ws.onopen = function () {
                 wse.re_try = 7;
-                // setInterval(function () {
-                //     //
-                //     let r = _get_added('ctrl_ping_count');
-                //     wse.ws.send('CTRL_PING_' + r);
-                //     log("Ping");
-                //     if (r > 78) {
-                //         _get_added('ctrl_ping_count', function (v) {
-                //             v.v = 0;
-                //         });
-                //     }
-                // }, 30000)
+                setInterval(function () {
+                    //
+                    let r = _get_added('ctrl_ping_count');
+                    wse.ws.send('CTRL_PING_' + r);
+                    log("Ping");
+                    if (r > 78) {
+                        _get_added('ctrl_ping_count', function (v) {
+                            v.v = 0;
+                        });
+                    }
+                }, 30000)
             };
 
             $("#set").click(function () {
@@ -58,6 +58,9 @@
                     }
                     if(received_data.startsWith("CTRL_ERROR_")){
                         $("#out").val(received_data.replace('CTRL_ERROR_',''))
+                        setTimeout(function () {
+                            $("#out").val("")
+                        },3000)
                     }
                 } else {
                     log(received_data)
