@@ -41,7 +41,7 @@
             $("#set").click(function () {
                 wse.ws.send("CTRL_TEXT_SET_"+key+"_"+$("#text").val())
                 log(window.location.href+"/"+key)
-                $("#out").val("分享这个链接:\n"+window.location.href+"/"+key+" [已复制到粘贴板]")
+                $("#out").val("分享这个链接: "+window.location.href+"/"+key+" [已复制到粘贴板]")
                 copyToclip(window.location.href+"/"+key)
             })
 
